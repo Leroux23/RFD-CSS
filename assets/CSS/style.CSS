@@ -1,4 +1,4 @@
-@import url(reset.css);
+/* @import url(reset.css); */
 
 body{
   font-size: 16 px;
@@ -23,9 +23,13 @@ p#deux {background-color: green;
   font-size: 30px;
   text-decoration: none;
 }
-p#trois {background-color: orange
+p#trois {background-color: orange;
 }
-p#quatre {background-color: purple
+p#quatre {background-color: purple;
 }
-/* Début de commentaire
-Fin de commentaire */
+ul {list-style: disc;
+}
+li {color: red;
+}
+ul li ul li {color: blue;
+}
